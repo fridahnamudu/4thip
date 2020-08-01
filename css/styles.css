@@ -15,4 +15,17 @@
     font-family: cursive;
     font-weight: bold;
     font-style: italic;
+    color: brown;
 }
+.firstparagraph{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.section2{
+    font-size:20px;
+    font-family: sans-serif;
+    color:black;
+    font-weight: bold;
+}
+
