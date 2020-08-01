@@ -38,9 +38,59 @@
           <div class ="yummy">
            <h2><div class="pizza">YUMMY<br>PIZZA!!!</h2></div>
           </div>
-          
-      </div>
-      
-    
+          <div class="order">
+            <h2>ORDER NOW!</h2>
+            <p>You can place your order right away and choose what kind of pizza you want and the toppings for it.</p>
+            <div class ="form">
+            <form action="/action_page.png">
+            <label for="size">choose size:</label>
+          <select name="size" id="size">
+            <option value="large">Large</option>
+            <option value ="medium">Medium</option>
+            <option value="small">Small</option>
+          </select>
+          <p>
+          <label for="crust">Choose crust:</label>
+            <select name="crust" id="crust">
+            <option value="crispy">Crispy</option>
+            <option value="stuffed">Stuffed</option>
+            <option value="Glutten-free">Glutten-free</option>
+          </select>
+          </p>
+          <p>
+          <label for ="toppings"> Choose toppings:</label>
+          <select name="toppings" id="toppings">
+            <option value="berries">Berries</option>
+            <option value="pineapples">Pineapples</option>
+            <option value="reisains">Reisains</option>
+            <option value="nuts">Nuts</option>
+          </select>
+          </p>
+        </form>
+        </div>
+        <h3>Do you want it delivered?</h3>
+        <div class="checkbox">
+          <label><input type="checkbox" value="">YES</label>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" value="">NO</label>
+        </div>
+          </div>
+        </form>
+          <div class="container-fluid contact">
+            <h2>CONTACT US</h2>
+             <from id="formValidity">
+              <div class="form-group form-inline">
+                <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
+                <input type="email" class="form-control"  placeholder = "Email...." name="MERGE0" id="MERGE0" size="25" value="">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...." value="" name="MMERGE3" class="" id="mce-MMERGE3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary col-md-1" style="padding: 5px;">Submit</button>
+              <button type="reset" class="btn btn-primary col-md-1" style="padding: 4px" >Reset</button>
+              </form>
+          </div>
+        </div>  
   </body>
 </html>
