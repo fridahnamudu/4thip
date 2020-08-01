@@ -1,6 +1,7 @@
 *{
     overflow-x: hidden;
 }
+
 .section1{ 
     text-align: center;
     font-size-adjust:auto;
@@ -27,5 +28,19 @@
     font-family: sans-serif;
     color:black;
     font-weight: bold;
+    text-align: center;
 }
-
+.yummy{
+    text-align: center;
+    background: url('../img/intro.jpg');
+    background-size: cover;
+    height:680px;
+    padding:2rem;
+}
+.pizza{
+    font-size:250px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color:green;
+}
